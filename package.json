@@ -1,0 +1,11 @@
+{
+    "name": "a-evomark-project",
+    "license": "CC BY-NC-SA 4.0",
+    "version": "0.0.1",
+    "dependencies": {
+      "evomark-loader": "git://github.com/EvoEvolver/evomark-loader.git",
+      "evomark-it": "git://github.com/EvoEvolver/evomark-it.git",
+      "evomarked-nuxt": "git://github.com/EvoEvolver/evomarked-nuxt.git"
+    }
+  }
+  
