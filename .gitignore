@@ -1,0 +1,4 @@
+node_modules
+.evomark_ir
+.deploy
+*.pem
