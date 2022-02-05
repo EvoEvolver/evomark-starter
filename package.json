@@ -1,11 +1,14 @@
 {
-    "name": "a-evomark-project",
-    "license": "CC BY-NC-SA 4.0",
-    "version": "0.0.1",
-    "dependencies": {
-      "evomark-loader": "git://github.com/EvoEvolver/evomark-loader.git",
-      "evomark-it": "git://github.com/EvoEvolver/evomark-it.git",
-      "evomarked-nuxt": "git://github.com/EvoEvolver/evomarked-nuxt.git"
-    }
+  "name": "a-evomark-project",
+  "license": "CC BY-NC-SA 4.0",
+  "version": "0.0.1",
+  "dependencies": {
+    "evomark-loader": "git://github.com/EvoEvolver/evomark-loader.git",
+    "evomark-it": "git://github.com/EvoEvolver/evomark-it.git",
+    "evomarked-nuxt": "git://github.com/EvoEvolver/evomarked-nuxt.git"
+  },
+  "scripts": {
+    "setup-common": "curl -o Evomark_New.sh https://raw.githubusercontent.com/EvoEvolver/evomark-starter/main/Evomark_New.sh && curl -o Update_Packages.sh https://raw.githubusercontent.com/EvoEvolver/evomark-starter/main/Update_Packages.sh",
+    "setup-win": "npm run setup-common && curl  -o Evomark_Dev.sh https://raw.githubusercontent.com/EvoEvolver/evomark-starter/main/Evomark_Dev_Win.sh"
   }
-  
+}
